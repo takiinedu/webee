@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
 }
 
@@ -8,7 +8,8 @@
     height: 31px;
     background-color: #ffffff;
 }
-.header__banner *{
+
+.header__banner * {
     position: absolute;
     top: 1px;
     font-family: 'Be Vietnam Pro';
@@ -21,24 +22,83 @@
     text-align: center;
 
 }
+
 .banner__title {
     left: 31.5vw;
     color: #000000;
 }
 
 .banner__signin {
-    right: 9.05vw;
     text-decoration-line: underline;
     color: #000000;
 }
+
 .header__content {
     width: 100%;
     height: 89px;
     display: flex;
     align-items: center;
+    position: relative;
 
 }
-.header__content__logo{
-    width: 217px;
-    transform: translateX(-1.5vw);
+
+.header__content__logo {
+    position: absolute;
+    left: -1.6vw;
+}
+
+.nav {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-content: center;
+    list-style: none;
+}
+
+.nav__link {
+    width: 142px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__link a {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav__searchbox {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    width: 31.3325vw;
+    height: 38px;
+    border: none;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.searchbox__searchicon {
+
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.searchbox_textbox {
+    font-size: 18px;
+    width: calc(100%);
+    height: 100%;
+    border: none;
+    outline: none;
 }
