@@ -1,5 +1,26 @@
-.searchclub{
+.searchclub {
     width: 100vw;
     height: 648px;
     background: linear-gradient(180deg, #85F9FF, #FFFFFF 120%);
+}
+
+.searchclub h1::before {
+    content: 'CÙNG TÌM ';
+    color: black;
+}
+
+.searchclub h1 {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    align-items: center;
+    color: #F9B800;
+    margin-top: 100px;
+}
+
+.searchclub h1::after {
+    content: ' CỦA BẠN NGAY THÔI !!!';
+    color: black;
 }
