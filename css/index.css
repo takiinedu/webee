@@ -1,7 +1,27 @@
 .searchclub {
     width: 100vw;
     height: 648px;
-    background: linear-gradient(180deg, #85F9FF, #FFFFFF 120%);
+    background: linear-gradient(0deg, #ffffff 20%, #85F9FF);
+    position: relative;
+    user-select: none;
+}
+
+.searchclub-title {
+    position: absolute;
+    top: 128px;
+    height: 183px;
+    align-content: center;
+}
+
+.searchclub h1,
+.searchclub h1::before,
+.searchclub h1::after {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    align-items: center;
 }
 
 .searchclub h1::before {
@@ -10,17 +30,40 @@
 }
 
 .searchclub h1 {
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 51px;
-    align-items: center;
     color: #F9B800;
-    margin-top: 100px;
 }
 
 .searchclub h1::after {
     content: ' CỦA BẠN NGAY THÔI !!!';
     color: black;
 }
+
+.searchclub-button {
+    position: absolute;
+    width: 209.97px;
+    height: 67.78px;
+    background: linear-gradient(-28deg, #FF5858 19%, #FFC857 74%);
+    border-radius: 50px;
+    border: none;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.searchclub-img {
+    transform: translateX(265px);
+    position: absolute;
+    width: 1225px;
+    height: 806.55px;
+    right: 0px;
+    top: -100px;
+    z-index: 0;
+    background-image:  url('../asset/img/Group 98.png');
+    background-size: cover;   
+}
+/* 1225 806.55  */
