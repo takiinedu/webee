@@ -12,6 +12,9 @@ body{
     display: flex;
     margin: auto;
 }
+erro{
+  display: none;
+}
 /* Màn hình nhỏ (điện thoại) - tối đa 480px */
 /* @media (max-width: 480px) {
     body {
@@ -29,18 +32,41 @@ body{
   /* }
    */
   /* Màn hình lớn (máy tính) - từ 769px đến 1024px */
-  @media (min-width: 769px) and (max-width: 1250px) {
-    body {
-      display: none;;
+  /*  @media (min-width: 769px) and (max-width: 1250px) */
+  @media (max-width: 1250px) {
+    header, .searchclub{
+      display: none;
+      
+    }
+    body{
+      background-color: #ffffff;
+      display: flex;
+      text-align:center;
+      align-content: center;
+      height: 100vh;
+      background-image: url("../img/webee_logo.svg");
+      background-repeat: no-repeat;
+      color: #686868;
+    }
+    .error{
+      display: block;
+      margin: auto;
+    }
+    .error::before{
+      content: 'ERROR';
+      font-size: 5vw;
+      font-family: 'Be Vietnam Pro';
+    }
+    .error::after{
+      content: 'Dộ dài màn hình của bạn hiện không được trang web hỗ trọ truy cập bởi trang web!';
+      font-size: 5vw;
+      font-family: 'Be Vietnam Pro';
     }
     /* Các thay đổi giao diện dành cho màn hình máy tính nhỏ */
   }
   
   /* Màn hình rất lớn (desktop lớn) - từ 1025px trở lên */
   @media (min-width: 1250px) {
-    body {
-      
-    }
     /* Các thay đổi giao diện dành cho desktop lớn */
   }
   
