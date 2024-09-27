@@ -48,8 +48,12 @@
 .content-logo {
     position: absolute;
     transform: translateX(-20px);
+    cursor: pointer;
+    transition: 0.2s;
 }
-
+.content-logo:hover {
+    border-bottom: 2px solid #FFC000;
+}
 .nav {
     position: absolute;
     right: 0px;
@@ -77,6 +81,8 @@
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
 }
 .nav__link a:hover {
     color: #FFC000;
