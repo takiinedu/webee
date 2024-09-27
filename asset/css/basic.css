@@ -6,6 +6,9 @@ body{
     background-color: #414242;
 }
 .wrapper{
+    position: relative;
+    height: 31px;
     width: calc(100vw - 83*2px);
+    display: flex;
     margin: auto;
 }
