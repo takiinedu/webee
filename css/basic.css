@@ -60,7 +60,7 @@ erro{
       font-family: 'Be Vietnam Pro';
     }
     .error::after{
-      content: 'Dộ dài màn hình của bạn hiện không được trang web hỗ trọ truy cập bởi trang web!';
+      content: 'Dộ dài màn hình của bạn hiện không được trang web hỗ trợ truy cập bởi trang web!';
       font-size: 5vw;
       font-family: 'Be Vietnam Pro';
     }
