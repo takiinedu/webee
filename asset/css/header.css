@@ -78,6 +78,9 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+.nav__link a:hover {
+    color: #FFC000;
+}
 
 .nav__searchbox {
     border-radius: 50px;
