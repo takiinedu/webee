@@ -34,8 +34,8 @@ erro{
   /* }
    */
   /* Màn hình lớn (máy tính) - từ 769px đến 1024px */
-  /*  @media (min-width: 769px) and (max-width: 1250px) */
-  @media (max-width: 1250px) {
+  /*  @media (min-width: 769px) and (max-width: 1300px) */
+  /* @media (max-width: 1250px) {
     header, .searchclub{
       display: none;
       
@@ -65,10 +65,10 @@ erro{
       font-family: 'Be Vietnam Pro';
     }
     /* Các thay đổi giao diện dành cho màn hình máy tính nhỏ */
-  }
+  /* } */
   
   /* Màn hình rất lớn (desktop lớn) - từ 1025px trở lên */
-  @media (min-width: 1250px) {
+  /* @media (min-width: 13000px) { */
     /* Các thay đổi giao diện dành cho desktop lớn */
-  }
-  
+  /* }
+   */

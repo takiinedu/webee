@@ -11,6 +11,7 @@
     top: 128px;
     height: 183px;
     align-content: center;
+    z-index: 1;
 }
 
 .searchclub h1,
@@ -67,3 +68,5 @@
     background-size: cover;   
 }
 /* 1225 806.55  */
+@media screen and (max-width: 1320px) {
+}
